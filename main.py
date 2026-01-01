@@ -71,7 +71,7 @@ def main():
     jq.run_daily(
         daily_check,
         time=datetime.strptime("09:00", "%H:%M").time(),
-        data={'chat_id': YOUR_PERSONAL_CHAT_ID_HERE}  # Replace with your Telegram user ID
+        data={'chat_id': gdaviez}  # Replace with your Telegram user ID
     )
     
     print("Bot is running...")
